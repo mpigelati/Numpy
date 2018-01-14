@@ -17,3 +17,7 @@ RE_EX2= EX2.reshape(9,1)
 print(RE_EX2)
 RE_EX3= EX2.reshape(1,9)
 print(RE_EX3)
+
+
+a=np.arange(25)
+print(a.ndim)
