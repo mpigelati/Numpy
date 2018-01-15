@@ -10,5 +10,6 @@ print(a)
 b= a.reshape(12,2)
 print(b)
 
+print('\n   ')
 c = a.reshape(2,4,3)
 print(c)

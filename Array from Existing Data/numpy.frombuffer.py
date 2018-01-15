@@ -6,5 +6,5 @@ print(a)
 
 string = 'Hellow world'
 
-buff = np.frombuffer(string )
+buff = np.frombuffer(string,dtype='S1' )
 print(buff)
